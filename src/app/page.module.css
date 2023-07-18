@@ -1,0 +1,108 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.login{
+  width: 20%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(0, 220, 130, 0.44) 0%, rgba(24, 24, 27, 1) 24%, rgba(24, 24, 27, 1) 76%, rgba(0, 220, 130, 0.44) 100%);
+  padding: 1%;
+}
+
+.password2{
+  visibility: hidden;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 1% 0 1%;
+}
+
+.heading{
+  margin-top: 5%;
+  border-bottom: 1px solid rgba(0, 220, 130, 0.44);
+  padding: 2% 6%;
+  margin-bottom: 15%;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.username{
+  border: 1px solid rgba(0, 220, 130, 0.44);
+  width: 80%;
+  padding: 1% 3%;
+  margin-bottom: 8%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.button{
+  background: 
+  linear-gradient(60deg, rgba(0, 220, 130, 1), rgba(53, 227, 217, 1)) padding-box;
+    color: black;
+padding: 4% 9%;
+font-size: 15px;
+font-weight: 700;
+margin-bottom: 2%;
+border: 5px solid transparent;
+border-radius: 40px;
+display: inline-block;
+}
+
+.paragraph{
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 2%;
+}
+
+.desc{
+  color: rgba(170, 170, 170, 1);
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 2%;
+}
+
+.username2{
+  width: 90%;
+  padding: 3%;
+  outline: none;
+  background: rgba(24, 24, 27, 1);
+  font-size: 15px;
+  color: white;
+  border: none;
+}
+.userpic{
+  position: absolute;
+  top: 60;
+  right: 0;
+  margin-left: auto;
+}
+
+.social{
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .login{
+    width: 80%;
+  }
+}

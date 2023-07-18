@@ -1,0 +1,238 @@
+.mainContainer{
+width: 100%;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto ;
+    padding: 0 5%;
+    align-items: center;
+    text-align: center;
+}
+
+.title{
+    font-weight: 600px;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 2%;
+}
+.center{
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.firstRow{
+    margin-top: 3%;
+}
+
+.firstRow, .secRow, .thirdRow{
+    display: flex;
+    gap: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.antihacker, .antiphishing{
+    width: 50%;
+    border-radius: 25px;
+    background-color: white;
+    padding: 1%;
+}
+.antihacker{
+    background: linear-gradient(180deg, rgba(24, 24, 27, 1) 45%, rgba(190, 148, 0, 0.33) 100%);
+}
+.antiphishing{
+    background: linear-gradient(180deg, rgba(24, 24, 27, 1) 45%, rgba(68, 194, 248, 0.38) 100%);
+    justify-content: center;
+    align-items: center;
+}
+.antihacker2{
+    width: 50%;
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(24, 24, 27, 1) 45%, rgba(115, 129, 255, 0.54) 100%);
+    padding: 1%;
+
+}
+.antiphishing2{
+    width: 50%;
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(24, 24, 27, 1) 45%, rgba(0, 220, 130, 0.44) 100%);
+    padding: 1%;
+}
+
+.antihacker3{
+    width: 50%;
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(24, 24, 27, 1) 45%,     rgba(222, 255, 95, 0.4)
+    100%);
+    padding: 1%;
+}
+.antiphishing3{
+    width: 50%;
+    border-radius: 25px;
+    background: linear-gradient(180deg, rgba(24, 24, 27, 1) 45%,     rgba(237, 113, 255, 0.56)
+    100%);
+    padding: 1%;
+}
+
+.antihacker:hover, .antiphishing:hover,.antihacker2:hover,.antihacker3:hover, .antiphishing2:hover, .antiphishing3:hover{
+    transform: scale(1.03);
+}
+
+.desc{
+    text-align: center;
+    color: rgba(170, 170, 170, 1);
+    line-height: 25px;
+    padding: 0 2%;
+}
+
+.button{
+    background: 
+        linear-gradient(#111, #111) padding-box,
+        linear-gradient(60deg, rgba(0, 220, 130, 1), rgba(53, 227, 217, 1)) border-box;
+      color: white;
+      padding: 20px 70px;
+      border: 5px solid transparent;
+      border-radius: 40px;
+      display: inline-block;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 43px;
+      margin-bottom: 5%;
+      margin-top: 5%;
+}
+
+.paragraph{
+    padding: 0 15%;
+    font-weight: 500;
+    line-height: 29px;
+    font-size: 21px;
+}
+.paragraph2{
+    width: 100%;
+    padding: 0 2%;
+    font-weight: 500;
+    line-height: 29px;
+    font-size: 21px;
+
+}
+.heading{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 2%;
+
+}
+
+
+.image{
+    margin-bottom: 4%;
+}
+
+.button:hover{
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .firstRow, .secRow, .thirdRow{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .button{
+        padding: 5px 40px;
+    }
+
+    .title{
+        margin-top: 10%;
+        font-size: 25px;
+        margin-bottom: 5%;
+    }
+
+    .center{
+        width: 100%;
+    }
+
+    .heading{
+        font-size: 20px;
+    }
+
+    .paragraph2{
+        font-size: 15px;
+    }
+
+    .antihacker, .antiphishing,.antihacker2, .antiphishing2,.antihacker3, .antiphishing3{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10%;
+        padding: 5% 2%;
+    }
+    .paragraph{
+        width: 100%;
+        padding: 0 2%;
+        font-size: 15px;
+    }
+    .button{
+        font-size: 25px;
+        margin-bottom: 25%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:1280px) {
+    .firstRow, .secRow, .thirdRow{
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+
+    .button{
+        padding: 5px 40px;
+    }
+
+    .title{
+        margin-top: 10%;
+        font-size: 25px;
+        margin-bottom: 5%;
+    }
+
+    .center{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading{
+        font-size: 20px;
+    }
+
+    .paragraph2{
+        font-size: 15px;
+    }
+
+    .antihacker, .antiphishing,.antihacker2, .antiphishing2,.antihacker3, .antiphishing3{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10%;
+        padding: 5% 2%;
+    }
+    .paragraph{
+        width: 100%;
+        padding: 0 2%;
+        font-size: 15px;
+    }
+    .button{
+        font-size: 25px;
+        margin-bottom: 25%;
+    }
+}

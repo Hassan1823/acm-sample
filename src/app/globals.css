@@ -1,0 +1,35 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+  font-family: "Inter"; 
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", Tofu;
+  font-weight: 700;
+}
+
+:root{
+  --primaryColor:linear-gradient(90deg, rgb(26, 218, 19), rgb(2, 252, 239)) 1 ;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
